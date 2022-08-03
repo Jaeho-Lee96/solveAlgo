@@ -1,0 +1,2 @@
+# solveAlgo
+Study Algorithm 
