@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Main {
+public class Main_15654 {
 
     static int N;
     static int M;
@@ -23,39 +23,36 @@ public class Main {
         N = Integer.parseInt(st.nextToken());
         M = Integer.parseInt(st.nextToken());
 
-        nums = new int[N];
-        visited = new boolean[N];
-        answer = new int[M];
-
         st = new StringTokenizer(br.readLine());
-
-        for(int i=0; i<N; i++) {
+        nums = new int[N];
+        answer = new int[M];
+        visited = new boolean[N];
+        for (int i = 0; i < N; i++) {
             nums[i] = Integer.parseInt(st.nextToken());
         }
-
         Arrays.sort(nums);
-        dfs(0,0);
-        System.out.println(sb);
 
+        dfs(0,0);
+
+        System.out.println(sb);
     }
 
     private static void dfs(int idx, int depth) {
-        if(depth == M) {
-            for(int n : answer) {
-                sb.append(n).append(" ");
+        if (depth == M) {
+            for (int n : answer) {
+                sb.append(n + " ");
             }
             sb.append("\n");
             return;
         }
 
-        for(int i=idx; i<nums.length; i++) {
-            //if(visited[i]) continue;
-            if(visited[i] || idx >= 1 && answer[depth-1] > nums[i]) continue;
+        for (int i = 0; i < nums.length; ++i) {
+            if(visited[i]) continue;
             answer[depth] = nums[i];
-            visited[i]= true;
+            visited[i] = true;
             dfs(idx+1, depth+1);
             visited[i] = false;
         }
-    }
 
+    }
 }
