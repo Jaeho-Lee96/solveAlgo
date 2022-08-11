@@ -40,8 +40,7 @@ public class Solution {
 				gyu.remove(Integer.valueOf(cards[i]));
 			}
 			
-//			System.out.println("Min: " + Arrays.toString(cards));
-//			System.out.println("Gyu: " + gyu);
+//			System.out.println("Min: " g+ gyu);
 			
 			dfs(0);
 			

@@ -8,12 +8,6 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
-<<<<<<< HEAD
-=======
-import com.sun.imageio.spi.FileImageInputStreamSpi;
->>>>>>> 2185bdfac8945e3b03deef03ba8503b9f08514b1
-
-
 public class Solution_1233_사칙연산유효성검사 {
 	public static void main(String[] args) throws IOException{
 		System.setIn(new FileInputStream("HW/src/date0809/sw1233/input.txt"));
