@@ -10,7 +10,7 @@ public class Main {
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		StringBuffer sb = new StringBuffer();
 		
-		int N = Integer.parseInt(st.nextToken()); // 주어진 문자열
+	int N = Integer.parseInt(st.nextToken()); // 주어진 문자열의 길이
 	int M = Integer.parseInt(st.nextToken()); // 사용할 부분문자열의 길이
 	arr = new int[4];
 	String input = br.readLine();
