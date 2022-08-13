@@ -27,7 +27,7 @@ public class Main_15686_치킨배달2 {
 			for (int j = 0; j < N; j++) {
 				graph[i][j] = Integer.parseInt(st.nextToken());
 				if (graph[i][j] == 1) house.add(new Integer[] {i, j});
-				else if (graph[i][j] == 2) chicken.add(new Integer[] {i, j});https://www.acmicpc.net/login?next=%2Fproblem%2F15686
+				else if (graph[i][j] == 2) chicken.add(new Integer[] {i, j});
 			}
 		} // 주어진 도시 정보
 		arr = new int[M];
