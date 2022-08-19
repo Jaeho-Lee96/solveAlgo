@@ -18,7 +18,7 @@ public class Main_1987_알파벳 {
     static int max = Integer.MIN_VALUE;
 
     public static void main(String[] args) throws Exception {
-        System.setIn(new FileInputStream("src/date0818/bj1987/input.txt"));
+        System.setIn(new FileInputStream("HW/HW/src/date0818/bj1987/input.txt"));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         R = Integer.parseInt(st.nextToken());
