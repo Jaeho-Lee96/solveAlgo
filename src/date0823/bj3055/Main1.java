@@ -6,7 +6,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.*;
 
-public class Main {
+public class Main1 {
 	static int R, C;
 
 	static int[] dx = { -1, 1, 0, 0 };
