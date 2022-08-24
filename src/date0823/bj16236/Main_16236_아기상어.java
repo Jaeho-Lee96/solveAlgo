@@ -3,8 +3,6 @@ package date0823.bj16236;
 import java.io.*;
 import java.util.*;
 
-import sun.util.locale.StringTokenIterator;
-
 public class Main_16236_아기상어 {
 
 	static int[][] graph;
